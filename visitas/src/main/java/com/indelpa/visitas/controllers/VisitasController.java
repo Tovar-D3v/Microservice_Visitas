@@ -21,7 +21,7 @@ import com.indelpa.visitas.services.VisitasService;
 
 
 @RestController
-@RequestMapping("/api/visitas")
+@RequestMapping("/visitas")
 @CrossOrigin(origins = "*")
 public class VisitasController {
 
