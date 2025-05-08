@@ -23,6 +23,8 @@ public class Visitas {
     private Integer creador_visita_id;
     private String titulo; 
     private Integer viaticos;
+    private String nombre_cliente;
+    private String nombre_vendedor;
     private Integer cliente_id;
     private String fecha_visita;
 
