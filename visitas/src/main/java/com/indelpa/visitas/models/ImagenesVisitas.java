@@ -1,5 +1,6 @@
 package com.indelpa.visitas.models;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -22,7 +23,7 @@ public class ImagenesVisitas {
 
     private String imagen;
 
-    @ManyToOne
-    @JoinColumn(name = "visita_id")
-    private Visitas visita;
+    @Column(name = "visita_id")
+    private Long visitaId;
+
 }
