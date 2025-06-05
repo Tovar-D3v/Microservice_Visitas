@@ -28,5 +28,4 @@ public class RegistroLocalizacion {
     @ManyToOne
     @JoinColumn(name = "visita_id")
     private Visitas visita;
-
 }
